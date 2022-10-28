@@ -1,4 +1,5 @@
 {
+  "version": "0.0.1",
   "scripts": {
     "serve": "vite serve",
     "build": "vite build"

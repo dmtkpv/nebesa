@@ -1,11 +1,13 @@
+import { version } from './package.json'
 import vue from '@vitejs/plugin-vue'
 
 export default {
 
     root: './src',
+    publicDir: '../public',
 
     build: {
-        outDir: '../dist'
+        outDir: '../dist/' + version
     },
 
     server: {
