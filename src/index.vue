@@ -12,7 +12,7 @@
         animation: app 5s ease-in-out infinite;
     }
     @keyframes app {
-        /*50% { perspective-origin: 50% 50% }*/
+        50% { perspective-origin: 50% 50% }
     }
 
     .app div {
